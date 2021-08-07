@@ -18,12 +18,12 @@ FPS = 60
 
 
 #load images
-bg = pygame.image.load('./bg.jpeg').convert_alpha()
+bg = pygame.image.load('./python02/bg.jpeg').convert_alpha()
 #castle
-castle_img_100 = pygame.image.load('./Castle_Defender/img/castle/castle_100.png').convert_alpha()
+castle_img_100 = pygame.image.load('./python02/Castle_Defender/img/castle/castle_100.png').convert_alpha()
 
 #bullet_img
-bullet_img = pygame.image.load('./Castle_Defender/img/bullet.png').convert_alpha()
+bullet_img = pygame.image.load('./python02/Castle_Defender/img/bullet.png').convert_alpha()
 b_w = bullet_img.get_width()
 b_h = bullet_img.get_height()
 bullet_img = pygame.transform.scale(bullet_img, (int(b_w * 0.075), int(b_h * 0.075)))
